@@ -1,16 +1,21 @@
-# medicart
+# MediCart 🏥🛒
 
-A new Flutter project.
+MediCart is a modern, offline-first Flutter application designed for managing medicine inventory and facilitating quick checkouts. Built with a sleek dark-mode interface, it offers seamless state management, local storage, and powerful features tailored for pharmacies or personal medical tracking.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+* **📦 Inventory Management**: Add, edit, and delete medicines with details like Name, Price, and Batch Number.
+* **🔍 Smart Search**: Instantly find medicines in your inventory with real-time search filtering.
+* **🛒 Cart & Checkout**: Add items to a shopping cart, adjust quantities, and proceed to checkout smoothly.
+* **📄 CSV Integration**: Easily import your existing medicine data from CSV files.
+* **💾 Offline First**: Uses Hive for lightning-fast, secure local storage—no internet required.
+* **📜 Invoices & History**: Generate receipts, take screenshots, and share them easily. Keep track of your past billing history.
+* **🎨 Premium UI**: A beautiful, modern dark theme built with Google Fonts (`Inter`) for a great user experience.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technology Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **Framework**: [Flutter](https://flutter.dev/) (SDK ^3.10.4)
+* **State Management**: [Riverpod](https://riverpod.dev/) (`flutter_riverpod`)
+* **Local Database**: [Hive](https://docs.hivedb.dev/) (`hive`, `hive_flutter`)
+* **UI/Styling**: `google_fonts`, `cupertino_icons`
+* **Utilities**: `csv`, `file_picker`, `path_provider`, `screenshot`, `share_plus`
