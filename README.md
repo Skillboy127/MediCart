@@ -2,6 +2,8 @@
 
 MediCart is a modern, offline-first Flutter application designed for managing medicine inventory and facilitating quick checkouts. Built with a sleek dark-mode interface, it offers seamless state management, local storage, and powerful features tailored for pharmacies or personal medical tracking.
 
+DEMO VIDEO - https://youtube.com/shorts/pbymbdlDr80?feature=share
+
 ## Features
 
 * **Inventory Management**: Add, edit, and delete medicines with details like Name, Price, and Batch Number.
